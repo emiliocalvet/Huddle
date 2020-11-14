@@ -1,0 +1,522 @@
+body {
+  background-color: whitesmoke;
+}
+
+.btn-pink {
+  background-color: #FF52C1;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  color: whitesmoke;
+}
+
+#art-rectangle {
+  height: 60rem;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+#purple-rectangle {
+  position: absolute;
+  top: -8%;
+  right: -43%;
+  height: 70%;
+  width: 70%;
+  background-color: purple;
+  border-radius: 4rem;
+  z-index: -1;
+  transform: rotate(-28deg);
+  background: linear-gradient(#FF52BF, #9A52FF);
+}
+
+#white-rectangle {
+  position: absolute;
+  top: 30%;
+  left: 0%;
+  height: 48%;
+  width: 120%;
+  background-color: white;
+  border-radius: 1.5rem;
+  z-index: -2;
+  transform: rotate(-28deg);
+}
+
+/*==================== HEADER ====================*/
+header {
+  padding: 2rem 0;
+  height: 11rem;
+}
+
+header img {
+  float: left;
+  height: 26px;
+  width: 100px;
+}
+
+header button {
+  float: right;
+  height: 26px;
+  width: 80px;
+  background-color: white;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+}
+
+/*=============== BUILD-COMMUNITY ================*/
+#build-community {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 4rem;
+  padding-bottom: 18rem;
+  width: 85%;
+}
+
+#build-community h2 {
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+}
+
+#build-community p {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  color: gray;
+  font-size: 16px;
+}
+
+#build-community button {
+  font-size: 14px;
+  padding: 0.6rem 2rem;
+}
+
+/*========= FLOWING...GROW...YOUR... ==========*/
+#flowing-conversation {
+  padding-top: 8rem;
+}
+
+#grow-together {
+  padding-top: 2rem;
+}
+
+#your-users {
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+}
+
+.title {
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 1rem;
+  font-size: 22px;
+}
+
+.paragraph {
+  color: gray;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+/*================= TRY-IT-FREE =================*/
+#try-it-free {
+  padding: 30px 10px;
+  margin-bottom: 6rem;
+}
+
+#try-it-free h2 {
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+
+#try-it-free p {
+  color: gray;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+}
+
+#try-it-free button {
+  padding: 0.4rem 1.8rem;
+  font-size: 12px;
+}
+
+/*==================== FOOTER ===================*/
+footer {
+  background-color: rgb(4, 58, 75);
+}
+
+#footer-logo {
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+
+.footer-list {
+  padding: 0 2rem;
+}
+
+.footer-list ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-list ul li {
+  margin-bottom: 1rem;
+}
+
+.footer-list ul li a {
+  color: whitesmoke;
+}
+
+#subscribe {
+  margin-bottom: 6rem;
+  padding: 5rem 1rem 0 1rem;
+  text-align: center;
+}
+
+#subscribe h2,
+#subscribe p {
+  color: whitesmoke;
+}
+
+#subscribe form input {
+  margin-bottom: 1rem;
+  padding: 0;
+  height: 3rem;
+  width: 100%;
+}
+
+#subscribe form button {
+  padding: 0;
+  height: 3rem;
+  width: 100%;
+}
+
+#social-network p {
+  color: whitesmoke;
+}
+
+#social-network {
+  text-align: center;
+}
+
+#social-network a img {
+  margin-bottom: 1rem;
+}
+
+/*--------------------------------- MEDIUM --------------------------------*/
+@media (min-width: 768px) {
+
+  #art-rectangle {
+    height: 70rem;
+  }
+
+  #purple-rectangle {
+    top: -20%;
+    right: -30%;
+    height: 80%;
+    width: 70%;
+    transform: rotate(-35deg);
+  }
+  
+  #white-rectangle {
+    top: 25%;
+    left: 0%;
+    height: 54%;
+    width: 80%;
+    border-radius: 3rem;
+    transform: rotate(-35deg);
+  }
+
+  /*==================== HEADER ====================*/
+  header img {
+    height: 40px;
+    width: 140px;
+  }
+
+  header button {
+    height: 40px;
+    width: 130px;
+  }
+
+  /*=============== BUILD-COMMUNITY ================*/
+  #illustration1 {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+  }
+
+  #build-community {
+    width: 80%;
+    padding-bottom: 22rem;
+  }
+
+  #build-community h2 {
+    margin: 0 auto 0 auto;
+    width: 80%;
+    font-size: 22px;
+  }
+
+  #build-community p {
+    margin: 0 auto 0 auto;
+    width: 90%;
+    font-size: 14px;
+  }
+
+  /*=========== FLOWING.../GROW.../USERS... ========*/
+  #flowing-grow-your {
+    padding-bottom: 12rem;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #illustration2 img{
+    padding-top: 1rem;
+  }
+
+  #flowing-conversation {
+    padding-top: 0;
+  }
+
+  #grow-together {
+    padding-top: 0.8rem;
+  }
+
+  #your-users {
+    padding-top: 0.8rem;
+    padding-bottom: 0;
+  }
+
+  .title {
+    padding-bottom: 0.4rem;
+    font-size: 16 px;
+  }
+
+  .paragraph {
+    font-size: 12px;
+  }
+
+  /*================= TRY-IT-FREE =================*/
+  #try-it-free {
+    padding: 3rem 1rem 4rem 1rem;
+    margin-bottom: 8rem;
+  }
+
+  #try-it-free button {
+    padding: 0.4rem 1.8rem;
+    font-size: 12px;
+  }
+
+  /*==================== FOOTER ===================*/
+  #footer-logo {
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
+    text-align: left;
+  }
+
+  #footer-logo img {
+    width: 22%
+  }
+
+  .footer-list {
+    padding: 0;
+  }
+  
+  .footer-list ul li{
+    margin: 0;
+  }
+
+  .footer-list ul li a {
+    font-size: 12px;
+
+  }
+
+  #subscribe {
+    margin-bottom: 5rem;
+    padding: 0 1rem;
+    text-align: left;
+  }
+
+  #subscribe h2 {
+    font-size: 14px;
+  }
+
+  #subscribe p {
+    font-size: 11px;
+  }
+
+  #subscribe form input,
+  #subscribe form button {
+    margin: 0 0 0.5rem auto;
+    height: 2rem;
+  }
+
+  #subscribe form button {
+    padding: 0.3rem 1.3rem;
+    width: 50%;
+    font-size: 12px;
+  }
+
+  #social-network {
+    text-align: left;
+  }
+
+  #social-network a img {
+    width: 13%;
+    padding: 0;
+  }
+
+  #social-network p {
+    font-size: 11px;
+  }
+}
+
+/*--------------------------------- LARGE ---------------------------------*/
+@media (min-width: 992px) {
+
+  #art-rectangle {
+    height: 85rem;
+  }
+
+  /*==================== HEADER ====================*/
+  header img {
+    height: 45px;
+    width: 170px;
+  }
+  
+  header button {
+    height: 45px;
+    width: 160px;
+  }
+
+  /*=============== BUILD-COMMUNITY ================*/
+  #build-community {
+    padding-bottom: 26rem;
+  }
+
+  #build-community h2 {
+    width: 80%;
+    font-size: 28px;
+  }
+
+  #build-community p {
+    font-size: 18px;
+  }
+
+  #build-community button {
+    font-size: 16px;
+  }
+
+  /*=========== FLOWING.../GROW.../USERS... ========*/
+  .title {
+    font-size: 22px;
+  }
+
+  .paragraph {
+    font-size: 14px;
+  }
+
+  /*================== TRY-IT-FREE =================*/
+  #try-it-free h2 {
+    font-size: 22px;
+  }
+
+  #try-it-free p {
+    font-size: 14px;
+  }
+
+  #try-it-free button {
+    font-size: 14px;
+  }
+
+  /*==================== FOOTER ====================*/
+  .footer-list ul li {
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-list ul li a {
+    font-size: 16px;
+  }
+
+  #subscribe h2 {
+    font-size: 18px;
+  }
+
+  #subscribe p {
+    font-size: 14px;
+  }
+
+  #subscribe form input,
+  #subscribe form button {
+    height: 2.5rem;
+  }
+
+  #subscribe form button {
+    font-size: 14px;
+  }
+
+  #social-network p {
+    font-size: 13px;
+  }
+}
+
+/*--------------------------------- XLARGE --------------------------------*/
+@media (min-width: 1200px){
+
+  #art-rectangle {
+    height: 110rem;
+  }
+
+  /*==================== HEADER ====================*/
+  header img {
+    height: 50px;
+    width: 190px;
+  }
+
+  header button {
+    height: 50px;
+    width: 180px;
+    font-size: 14px
+  }
+
+  /*=============== BUILD-COMMUNITY ================*/
+  #build-community {
+    padding-bottom: 35rem;
+  }
+
+  #illustration1 {
+    width: 90%;
+  }
+
+  #build-community h2 {
+    width: 85%;
+    font-size: 30px;
+  }
+
+  #build-community p {
+    font-size: 20px;
+  }
+
+  #build-community button {
+    font-size: 18px;
+  }
+
+  /*=========== FLOWING.../GROW.../USERS... ========*/
+  .title {
+    font-size: 24px;
+  }
+
+  .paragraph {
+    font-size: 18px;
+  }
+
+  /*==================== FOOTER ====================*/
+  #social-network p {
+    font-size: 15px;
+  } 
+}
